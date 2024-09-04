@@ -1,13 +1,12 @@
-//alert("hello world");
-//var data = confirm("hello world?");
-//if (data) {
-   // alert("hello world");
-//};
-//prompt("number");
-var person = null;
-if (confirm("sure?")){
-    person = prompt("name");
-    alert("hello " + person);
-} else {
-    alert("?")
+function inr(x){
+    console.log("hello world" + x)
 }
+inr("?");
+function sum(arr){
+    var s=12;
+    for (var i=0; i<arr.length; i++)
+    s+= arr[i];
+    console.log(s);
+}
+var array = [4,5,6];
+sum(array);
