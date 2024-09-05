@@ -58,4 +58,36 @@ if (confirm("sure?")){
 } else {
     alert("?")
 }
+    function inr(x){
+    console.log("hello world" + x)
+}
+inr("?");
+function sum(arr){
+    var s=12;
+    for (var i=0; i<arr.length; i++)
+    s+= arr[i];
+    console.log(s);
+}
+var array = [4,5,6];
+sum(array);
+var cnt = 0;
+function ocb(elm){
+    cnt++;
+    elm.innerHTML ="pressed" + cnt;
+}
+function oip(elm) {
+    comsole.log(elm.value);
+}
+    var text = document.getElementById('text');
+console.log(text.id);
+text.style.color = 'white';
+text.innerHTMl = "new<br>string";
+var spans = document.getElementsByTagName('span');
+for (var i=0; i<spans.length; i++) {
+    console.log(spans[i].innerHTML);
+}
+    function checkForm(el) {
+    console.log("text");
+    return false;
+}
 */
