@@ -90,4 +90,26 @@ for (var i=0; i<spans.length; i++) {
     console.log("text");
     return false;
 }
+    var id = setInterval(myf, 1000);
+var cont =0;
+
+function myf(){
+    cont++;
+    console.log(cont);
+    if(cont ==5)
+        clearInterval(id);
+};
+
+setTimeout(function(){
+    alert("timer is ok")
+},2000);
+class person{
+    constructor(name, age, happiness){
+        this.name=name;
+        this.age=age;
+        this.happiness=happiness;
+    }
+}
+var alex = new person('Alex', 23, true);
+console.log(alex.age);
 */
