@@ -1,9 +1,5 @@
-class person{
-    constructor(name, age, happiness){
-        this.name=name;
-        this.age=age;
-        this.happiness=happiness;
-    }
+function testFetch() {
+    fetch("http://192.168.1.101") 
+    .then(response => response.text())
+    .then(console.log(response));
 }
-var alex = new person('Alex', 23, true);
-console.log(alex.age);

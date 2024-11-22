@@ -78,19 +78,14 @@ function ocb(elm){
 function oip(elm) {
     comsole.log(elm.value);
 }
-    var text = document.getElementById('text');
-console.log(text.id);
-text.style.color = 'white';
-text.innerHTMl = "new<br>string";
-var spans = document.getElementsByTagName('span');
-for (var i=0; i<spans.length; i++) {
-    console.log(spans[i].innerHTML);
-}
-    function checkForm(el) {
+    
+    
+}*/
+    function checkForm() {
     console.log("text");
-    return false;
+    return true;
 }
-    var id = setInterval(myf, 1000);
+  /*  var id = setInterval(myf, 1000);
 var cont =0;
 
 function myf(){
@@ -101,7 +96,7 @@ function myf(){
 };
 
 setTimeout(function(){
-    alert("timer is ok")
+    alert("timer is ok");
 },2000);
 class person{
     constructor(name, age, happiness){
