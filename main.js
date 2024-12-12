@@ -1,4 +1,4 @@
-/*var num_1 = 20.4;
+var num_1 = 20.4;
 var num_2 = 10;
 var num = num_1/num_2;
 console.log(num + "hello world");
@@ -79,13 +79,7 @@ function oip(elm) {
     comsole.log(elm.value);
 }
     
-    
-}*/
-    function checkForm() {
-    console.log("text");
-    return true;
-}
-  /*  var id = setInterval(myf, 1000);
+   var id = setInterval(myf, 1000);
 var cont =0;
 
 function myf(){
@@ -107,4 +101,3 @@ class person{
 }
 var alex = new person('Alex', 23, true);
 console.log(alex.age);
-*/
