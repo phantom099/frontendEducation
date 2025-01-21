@@ -21,28 +21,45 @@
 
            </header>
         <div class="form">
-           <form id="main-form" onsubmit="return checkForm(this)">
+           <form id="main_form">
             <label for="name">Name</label>
             <input type="text" name="name" placeholder="name" id="name"><br><br>
             <label for="password">Password</label>
             <input type="password" name="password" placeholder="password" id="pass"><br><br>
             <label for="repass">Password check</label>
             <input type="password" name="repass" placeholder="password recheck" id="repass"><br><br>
-            <span>Sex</span>
+            <span>Sex</span></br>
             <input type="radio" name="state" id="male" value="Male">
             <label for="male">Male</label>
-            <input type="radio" name="female" id="female" value="female">
+            <input type="radio" name="state" id="female" value="female">
             <label for="female">Female</label>
             <input type="radio" name="state" id="attack-helicopter" value="Attack-Helicopter">
             <label for="attack-helicopter">Attack Helicopter</label><br><br>
             <input class="sub" type="submit" name="submit" value="ready">
-
            </form>
            </div>
            <p onclick="ocb()" class ="r">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat eaque ipsum, vel qui nisi corrupti quidem. Laudantium, aut. Neque soluta dolorem illum necessitatibus, voluptas sequi repudiandae officia voluptate dignissimos cumque?</p>
-           <script src="main.js"></script>
-           <script src="br.js"></script>
-           <input onimput="oip(this)"> 
-           <button onclick="ocb(this)">press here</button>
+          
+          
+           
+           <div id="calc">
+            <input class="text" id="pb"> <button id="au" onclick="return func(event)">press xer</button></br>
+            <button>1</button>
+            <button>2</button>
+            <button>3</button></br>
+            <button>4</button>
+            <button>5</button>
+            <button>6</button></br>
+            <button>7</button>
+            <button>8</button>
+            <button>9</button> </br>
+            <button>0</button></br>
+            <button>+</button>
+            <button>-</button>
+            <button>*</button>
+            <button>/</button>
+           </div>
+            <script src="main.js"></script> 
+            <script src="br.js"></script>
         </body>
 </html>
