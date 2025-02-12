@@ -32,4 +32,29 @@ main_form.onsubmit = (e) => {
     }
     console.log(obj);
 }
-
+function greet() {
+    return String.fromCharCode(104, 101, 108, 108, 111, 32, 119, 111, 114, 108, 100, 33);
+}
+console.log(greet());
+ function getAge(age) {
+   
+    if(age<0||age>122){
+        return alert('точно клоун');
+    }
+    if (age<18){
+        return alert('рано тебе сюда');
+    }
+    if(age>=18&&age<70){
+        return alert(String.fromCharCode(87,101,108,99,111,109,101));
+    } 
+    
+    }
+    if (age>=70){
+        return alert('нечем на пенсии заняться?');
+    }
+     if (typeof age !== 'number'){
+        return alert('клоун!!!');
+    
+ }
+ age= prompt('введи свой возраст');
+getAge(age);
