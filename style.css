@@ -67,7 +67,7 @@ form{
     border: 1px solid rgb(205, 255, 227);
     width: 10%;
     margin-left: 50px;
-    background-color: rgba(123, 255, 0, 0.5);
+    background-color: rgba(123, 255, 0, 0.7);
     border-radius: 50px;
     display:inline-block;
     position: inherit;
@@ -77,8 +77,10 @@ form{
     padding:15px 40px;
     border: none;
     outline: none;
-    color:#fff;
+    color:#000000;
     cursor: pointer;
+    border-radius: 50px;
+    background-color: rgba(123, 255, 0, 0.5);
 
 }
 calc{

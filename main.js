@@ -15,11 +15,10 @@ let newelm = document.createElement("div");
 newelm.id = "newdiv";
 document.getElementById("calc").appendChild(newelm);
 newelm.style = "background-color:"+randomColor+";height:100px;width:171px;color:white;border-radius: 20px;text-align:center";
-newelm.innerText = "lorem ipsum";
+newelm.innerText = "заходит улитка в бар.";
 
-
-main_form.onsubmit = (e) => {
-    e.preventDefault();
+main_form.onsubmit = (event) => {
+    event.preventDefault();
     let userData = new FormData(main_form);
     let obj = {
         name: userData.get("name"),
@@ -48,13 +47,14 @@ console.log(greet());
         return alert(String.fromCharCode(87,101,108,99,111,109,101));
     } 
     
-    }
+    
     if (age>=70){
         return alert('нечем на пенсии заняться?');
     }
-     if (typeof age !== 'number'){
+     else {
         return alert('клоун!!!');
     
  }
+}
  age= prompt('введи свой возраст');
 getAge(age);
